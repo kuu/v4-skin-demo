@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>V4 html5-skin demo</title>
+
+    <script src="http://player.ooyala.com/static/v4/stable/latest/core.min.js"></script>
+    <script src="http://player.ooyala.com/static/v4/stable/latest/video-plugin/main_html5.min.js"></script>
+    <script src="http://player.ooyala.com/static/v4/stable/latest/video-plugin/bit_wrapper.min.js"></script>
+    <script src="http://player.ooyala.com/static/v4/stable/latest/video-plugin/osmf_flash.min.js"></script>
+    <script src="http://player.ooyala.com/static/v4/stable/latest/other-plugin/discovery_api.min.js"></script>
+    <script src="https://player.ooyala.com/static/v4/stable/latest/ad-plugin/google_ima.min.js"></script>
+    <script src="http://player.ooyala.com/static/v4/stable/latest/skin-plugin/html5-skin.min.js"></script>
+    <link rel="stylesheet" href="http://player.ooyala.com/static/v4/stable/latest/skin-plugin/html5-skin.min.css">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">V4 html5-skin demo</h3>
+      </div>
+
+      <div id="container" style="width:640px;height:360px"></div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Player V4 Documentation</h4>
+          <p>Ooyala Player V4 is a next generation video player that provides an engaging, personalized, responsive, content aware, and robust video playback experience. The documentations can be found <a href="http://support.ooyala.com/developers/documentation/concepts/pbv4_about.html">here</a>.</p>
+
+          <h4>Embedding Player V4 on a Web Page</h4>
+          <p>These topics describe how to embed Player V4 into a web page. To get started, see <a href="http://support.ooyala.com/developers/documentation/reference/pbv4_web_tutorial.html">Basic Tutorial for Player V4 and Examples of Player V4 Web Page Embedding</a>.</p>
+
+          <h4>Customizing the Player V4 Appearance</h4>
+          <p>With Player V4, you can customize the UX of your player in the following ways. Check out <a href="http://support.ooyala.com/developers/documentation/concepts/pbv4_customize.html">these documents</a> for V4 Player UI customization.</p>
+          <h4>Player V4 JavaScript API</h4>
+          <p>See <a href="http://support.ooyala.com/developers/documentation/concepts/pbv4_api.html">The Player V4 JavaScript API Reference</a> for customizing your player functionality and UI elements, along with message bus event handling.</p>
+
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>♥ from the Ooyala team</p>
+      </div>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <script>
+    var playerParam = {
+      pcode: 'BtbmUyOlamRiH-S0S-iUeNvf_ghr',
+      playerBrandingId: '7267438d470c471eb75a165a8b670617',
+      debug: true,
+      skin: {
+        config: 'skin.json'
+      }
+    };
+    OO.ready(function() {
+      OO.Player.create('container', 'txeXNxeDrumpV8ugahvN-aEATj_YGBiI', playerParam);
+    });
+    </script>
+
+  </body>
+</html>
